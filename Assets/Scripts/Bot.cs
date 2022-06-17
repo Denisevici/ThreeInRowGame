@@ -14,7 +14,7 @@ public class Bot : MonoBehaviour
 
     private float[] botFigures = { -5, -5, -4, -4, -4, -3, -3 };
 
-    public Vector3 MakeMove(Figure figure, Tile tile) 
+    public Vector3 MakeMove(Figure figure, Tile tile)
     {
         Vector3 answer;
         if (figure != null && tile != null)
